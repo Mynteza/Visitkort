@@ -19,6 +19,7 @@
 body{
     font-family: var(--base-font);
     color: var(--base-color);
+    padding: 2em;
 
     background-color: #e4d7c0;
 }
