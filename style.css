@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Noto+Serif+HK:wght@300&display=swap');
+:root{
+
+    --base-color: #676769;
+    --accent-color: #887a65;
+    
+    --base-font: 'Acme', sans-serif;
+    --accent-font: 'Noto Serif HK', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing:border-box;
+}
+
+body{
+    font-family: var(--base-font);
+    color: var(--base-color);
+
+    background-color: #e4d7c0;
+}
+
+h1, h2{
+    font-family: var(--accent-font);
+    color: var(--accent-color)
+}
+
+.img-round{
+    width: 30vh;
+    height: 30vh;
+    
+    border-radius: 100%;
+}
+
+Header, main, footer{
+    display: flex;
+
+    Padding: 1em;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 0.5em;
+}
+
+a{
+    color: var(--base-color);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--accent-color);
+}
+
+.some-icons{
+    display: flex;
+
+    padding: 0.5em;
+
+    font-size: 2em;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.8em;
+}
